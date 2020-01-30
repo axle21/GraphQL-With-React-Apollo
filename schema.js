@@ -17,10 +17,9 @@ const LaunchType = new GraphQLObjectType({
         flight_number : {type : GraphQLInt},
         mission_name : {type : GraphQLString},
         launch_year : {type : GraphQLString},
-        launch_year_local : {type : GraphQLString},
-        launchh_success : {type : GraphQLBoolean},
+        launch_date_local : {type : GraphQLString},
+        launch_success : {type : GraphQLBoolean},
         rocket : {type : RocketType },
-
 
     })
 });
